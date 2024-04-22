@@ -1,0 +1,252 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 15px 0;
+  border: 1px solid black;
+}
+.header__inner {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+}
+.header__logo {
+  font-size: 30px;
+  color: black;
+  text-decoration: none;
+}
+.header__button {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+}
+.header__button:nth-child(2) {
+  margin-left: auto;
+}
+
+.register {
+  padding: 50px 0;
+}
+.register__inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+.register__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 0 250px;
+}
+.register__item {
+  display: flex;
+  flex-direction: column;
+}
+.register__item-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.register__item-input {
+  padding: 8px 10px;
+  border: 1px solid black;
+  margin-bottom: 3px;
+}
+.register__item-error {
+  font-size: 13px;
+  color: red;
+}
+.register__button {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 8px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.login {
+  padding: 50px 0;
+}
+.login__inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 30px;
+  padding: 0 250px;
+}
+.login__item {
+  display: flex;
+  flex-direction: column;
+}
+.login__item-label {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+.login__item-input {
+  padding: 8px 10px;
+  border: 1px solid black;
+}
+.login__button {
+  margin-top: 20px;
+  border: 1px solid black;
+  padding: 8px 0;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.dashboard {
+  padding: 50px 0;
+}
+.dashboard__inner {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  -moz-column-gap: 200px;
+       column-gap: 200px;
+}
+.dashboard__links {
+  color: black;
+  text-decoration: none;
+  font-size: 24px;
+}
+
+.posts {
+  padding: 50px 0;
+}
+.posts__inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+.posts__message {
+  text-align: center;
+}
+.posts__body {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  -moz-column-gap: 40px;
+       column-gap: 40px;
+  row-gap: 40px;
+}
+.posts__post {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid black;
+}
+.posts__post-title {
+  font-size: 30px;
+  margin-bottom: 5px;
+  color: black;
+  text-decoration: none;
+}
+.posts__post-desc {
+  font-size: 20px;
+  margin-bottom: auto;
+}
+.posts__post-datetime {
+  padding-top: 10px;
+  font-size: 14px;
+  color: rgb(81, 81, 81);
+}
+.posts__categories {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin-bottom: 15px;
+}
+.posts__categories-item {
+  padding: 3px 3px;
+  border: 1px solid black;
+}
+
+.post {
+  padding: 50px 0;
+}
+.post__inner {
+  width: 1140px;
+  margin: 0 auto;
+}
+.post__body {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  position: relative;
+}
+.post__body-title {
+  font-size: 45px;
+  margin-bottom: 5px;
+}
+.post__body-description {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+.post__body-datetime {
+  font-size: 15px;
+  color: rgb(81, 81, 81);
+  margin-bottom: 30px;
+}
+.post__body-author {
+  font-size: 20px;
+  color: black;
+  text-decoration: none;
+  margin-left: auto;
+}
+.post__categories {
+  display: flex;
+  flex-wrap: wrap;
+  -moz-column-gap: 10px;
+       column-gap: 10px;
+  margin-bottom: 20px;
+}
+.post__categories-item {
+  padding: 3px 3px;
+  border: 1px solid black;
+  color: black;
+  text-decoration: none;
+}
+
+.category {
+  padding: 50px 0;
+}
+.category__inner {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+.category__item {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.users {
+  padding: 50px 0;
+}
+.users__inner {
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  align-items: center;
+}
+.users__item {
+  color: black;
+  font-size: 20px;
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
